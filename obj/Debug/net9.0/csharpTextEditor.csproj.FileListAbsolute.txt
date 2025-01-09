@@ -1,0 +1,14 @@
+C:\dev\csharpTextEditor\bin\Debug\net9.0\csharpTextEditor.exe
+C:\dev\csharpTextEditor\bin\Debug\net9.0\csharpTextEditor.deps.json
+C:\dev\csharpTextEditor\bin\Debug\net9.0\csharpTextEditor.runtimeconfig.json
+C:\dev\csharpTextEditor\bin\Debug\net9.0\csharpTextEditor.dll
+C:\dev\csharpTextEditor\bin\Debug\net9.0\csharpTextEditor.pdb
+C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.AssemblyInfoInputs.cache
+C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.AssemblyInfo.cs
+C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.csproj.CoreCompileInputs.cache
+C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.dll
+C:\dev\csharpTextEditor\obj\Debug\net9.0\refint\csharpTextEditor.dll
+C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.pdb
+C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.genruntimeconfig.cache
+C:\dev\csharpTextEditor\obj\Debug\net9.0\ref\csharpTextEditor.dll
