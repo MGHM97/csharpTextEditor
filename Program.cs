@@ -24,7 +24,7 @@ namespace csharpTextEditor {
       switch (selectedOption) {
         case 1:  OpenFile(); break;
         case 2: CreateFile(); break;
-        case 3: Environment.Exit(0); break;
+        case 3: ExitApp(); break;
       }
     }
 
@@ -76,6 +76,23 @@ namespace csharpTextEditor {
       Console.WriteLine($"File successfuly saved at {savePath}");
       Console.ReadLine();
       Menu();
+    }
+
+    static void ExitApp() {
+      Console.WriteLine("");
+      Console.Clear();
+      Console.WriteLine("Are you sure you want to exit this app?");
+      Console.WriteLine("");
+      Console.WriteLine("1 -> Yes");
+      Console.WriteLine("2 -> No, go back");
+
+      Console.WriteLine("----------/--------/--------");
+
+      Console.WriteLine("Select one of the options above: ");
+      short exitResult = short.Parse(Console.ReadLine());
+
+      if (exitResult == 1) System.Environment.Exit(0);
+      else Menu();
     }
   }
 }
