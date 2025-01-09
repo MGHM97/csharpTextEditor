@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace csharpTextEditor {
   class Program {
@@ -32,7 +33,34 @@ namespace csharpTextEditor {
     }
 
     static void CreateFile() {
+      Console.Clear();
+      Console.WriteLine("Type your text down below. (Press ESC to exit text edition)");
 
+      Console.WriteLine("----------/--------/--------");
+
+      string inputedText = "";
+
+      do {
+        inputedText += Console.ReadLine();
+        inputedText += Environment.NewLine;
+      }
+      while(Console.ReadKey().Key != ConsoleKey.Escape);
+
+      SaveFile(inputedText);
+    }
+
+    static void SaveFile(string inputedText) {
+      Console.Clear();
+      Console.WriteLine("In which path would you like to save the file?");
+      var savePath = Console.ReadLine();
+
+      using (var createdFile = new StreamWriter(savePath)) {
+        createdFile.Write(inputedText);
+      }
+
+      Console.WriteLine($"File successfuly saved at {savePath}");
+      Console.ReadLine();
+      Menu();
     }
   }
 }

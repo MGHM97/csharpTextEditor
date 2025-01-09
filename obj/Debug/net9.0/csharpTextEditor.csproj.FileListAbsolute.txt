@@ -12,3 +12,4 @@ C:\dev\csharpTextEditor\obj\Debug\net9.0\refint\csharpTextEditor.dll
 C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.pdb
 C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.genruntimeconfig.cache
 C:\dev\csharpTextEditor\obj\Debug\net9.0\ref\csharpTextEditor.dll
+C:\dev\csharpTextEditor\obj\Debug\net9.0\csharpTextEditor.sourcelink.json
