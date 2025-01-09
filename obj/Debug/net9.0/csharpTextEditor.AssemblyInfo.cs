@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharpTextEditor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4e3c264cde347cae70e9f034ae9b41bf1b902f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a086ed01bef565a0de7dee951d38a146cea3dca6")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharpTextEditor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharpTextEditor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

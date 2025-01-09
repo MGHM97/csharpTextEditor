@@ -29,7 +29,22 @@ namespace csharpTextEditor {
     }
 
     static void OpenFile() {
+      Console.Clear();
+      Console.WriteLine("What is the file path?");
 
+      Console.WriteLine("----------/--------/--------");
+
+      string filePath = Console.ReadLine();
+
+      using(var file = new StreamReader(filePath)) {
+        string fileText = file.ReadToEnd();
+        Console.WriteLine("");
+        Console.WriteLine(fileText);
+      }
+
+      Console.WriteLine("");
+      Console.ReadLine();
+      Menu();
     }
 
     static void CreateFile() {
